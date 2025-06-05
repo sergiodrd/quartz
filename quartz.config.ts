@@ -8,47 +8,47 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
-    pageTitleSuffix: "",
+    pageTitle: "sergiopb.dev",
+    pageTitleSuffix: " - sergiopolarbear",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "sergiopb.dev",
     ignorePatterns: ["private", "templates", ".obsidian"],
-    defaultDateType: "modified",
+    defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "Inter",
+        body: "Atkinson Hyperlegible",
+        code: "Iosevka",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#faf4ed",          // base
+          lightgray: "#f2e9de",      // overlay
+          gray: "#9893a5",           // muted
+          darkgray: "#797593",       // subtle
+          dark: "#575279",           // text
+          secondary: "#286983",      // pine
+          tertiary: "#56949f",       // foam
+          highlight: "rgba(214, 208, 197, 0.15)", // highlightMed as transparent
+          textHighlight: "#ea9d3488", // gold with transparency
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#191724",          // base
+          lightgray: "#26233a",      // overlay
+          gray: "#6e6a86",           // muted
+          darkgray: "#908caa",       // subtle
+          dark: "#e0def4",           // text
+          secondary: "#31748f",      // pine
+          tertiary: "#c4a7e7",       // iris
+          highlight: "rgba(82, 79, 103, 0.15)",  // highlightHigh as transparent
+          textHighlight: "#f6c17788", // gold with transparency
         },
       },
     },
