@@ -3,6 +3,8 @@ title: home
 ---
 # welcome
 
+test
+
 hi, i'm sergio. this site is the entry point to most of what i make and share online.
 
 you'll find:
